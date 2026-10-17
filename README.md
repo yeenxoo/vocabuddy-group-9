@@ -74,3 +74,14 @@ show_summary()
 ### 在本機執行
 
 使用支援 Jupyter Notebook 的環境開啟 `VocaBuddy.ipynb`，依序執行兩個 Python cell 即可。程式使用 Python 內建的 `random`、`json` 模組，以及 `IPython.display` 顯示 HTML 介面；若本機尚未安裝 IPython，可執行 `pip install ipython`。
+
+## AI 協作設定（YTP Lab 11～14）
+
+| 檔案 | 用途 |
+|---|---|
+| `.claude/CLAUDE.md` | Claude Code 的專案指示檔：專案說明、程式慣例與規矩（Lab 12） |
+| `.github/agents/vocabuddy-explainer.agent.md` | GitHub Copilot 的「VocaBuddy 程式說明員」代理 |
+| `.claude/skills/add-words/SKILL.md` | 新增單字的技能：讀格式 → 加在最後 → 跑檢查 → 交給組員 commit（Lab 13） |
+| `.claude/agents/code-reviewer.md` | 唯讀的 code review 子代理（Lab 14） |
+| `check_words.py` | 檢查 notebook 裡 `vocabulary` 的格式與重複：`python3 check_words.py` |
+| `labs/labNN-*/CHECKLIST.md` | 各 Lab 的驗收紀錄 |
